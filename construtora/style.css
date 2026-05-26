@@ -495,4 +495,47 @@ footer{
     .sobre-texto h2{
         font-size:2rem;
     }
+
+    .cta{
+    padding:90px 25px;
+    }
+
+    .cta h2{
+    font-size:2rem;
+    }
+
+    .cta .btn-primary{
+    width:100%;
+    }
+}
+
+.cta{
+    padding:120px 8%;
+    text-align:center;
+}
+
+.cta .container{
+    max-width:900px;
+    margin:auto;
+}
+
+.cta h2{
+    font-size:clamp(2.2rem,4vw,3.5rem);
+    margin-bottom:20px;
+    line-height:1.2;
+    font-family:'Cormorant Garamond', serif;
+}
+
+.cta p{
+    font-size:1.1rem;
+    color:#ccc;
+    margin-bottom:35px;
+    line-height:1.8;
+}
+
+.cta .btn-primary{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    min-width:280px;
 }
