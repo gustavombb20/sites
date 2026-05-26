@@ -528,13 +528,7 @@ footer {
     resize: none;
 }
 
-@media(max-width:900px){
 
-    .contato-grid{
-        grid-template-columns: 1fr;
-    }
-
-}
 
 /* SOBRE */
 
@@ -566,13 +560,7 @@ footer {
     border-radius: 25px;
 }
 
-@media(max-width:900px){
 
-    .sobre-grid{
-        grid-template-columns: 1fr;
-    }
-
-}
 
 /* LOGO */
 
@@ -691,3 +679,135 @@ footer {
     }
 }
 
+/* MOBILE PREMIUM */
+
+@media screen and (max-width: 900px){
+
+    header{
+        width: 100%;
+    }
+
+    .navbar{
+        padding: 14px 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo img{
+        width: 90px;
+    }
+
+    .menu-toggle{
+        display: block;
+        font-size: 2rem;
+        color: #d4af37;
+        cursor: pointer;
+        z-index: 1001;
+    }
+
+    .nav-links{
+        position: fixed;
+        top: 75px;
+        left: -100%;
+        width: 100%;
+        height: auto;
+        background: rgba(0,0,0,.98);
+        backdrop-filter: blur(10px);
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+        padding: 40px 0;
+        transition: .4s ease;
+        z-index: 999;
+    }
+
+    .nav-links.active{
+        left: 0;
+    }
+
+    .nav-links a{
+        font-size: 1.1rem;
+    }
+
+    .hero{
+        min-height: 100vh;
+        padding: 110px 25px 60px;
+        align-items: center;
+    }
+
+    .hero-content{
+        max-width: 100%;
+    }
+
+    .hero h1{
+        font-size: 2.3rem;
+        line-height: 1.1;
+        margin-bottom: 20px;
+    }
+
+    .hero p{
+        font-size: 1rem;
+        line-height: 1.7;
+        margin-bottom: 30px;
+    }
+
+    .hero-buttons{
+        flex-direction: column;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .btn-primary,
+    .btn-secondary{
+        width: 100%;
+        text-align: center;
+    }
+
+    .cards{
+        flex-direction: column;
+    }
+
+    .galeria{
+        grid-template-columns: 1fr;
+    }
+
+    .projetos-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .contato-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .sobre-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .hero-projetos{
+        height: 50vh;
+        padding: 0 20px;
+    }
+
+    .hero-projetos-content h1{
+        font-size: 2.2rem;
+    }
+
+    .section-title h2{
+        font-size: 2rem;
+    }
+
+    .contato-info h2,
+    .sobre-texto h2{
+        font-size: 2rem;
+    }
+
+    .projeto-card img{
+        height: 240px;
+    }
+
+    .whatsapp{
+        bottom: 20px;
+        right: 20px;
+        padding: 14px 20px;
+    }
+}
