@@ -1,18 +1,15 @@
-window.addEventListener("scroll", function () {
+const menuToggle = document.querySelector(".menu-toggle");
+const navLinks = document.querySelector(".nav-links");
+const header = document.querySelector("header");
 
-    const header = document.querySelector("header");
 
-    if (window.scrollY > 50) {
-        header.style.background = "#000";
-        header.style.boxShadow = "0 5px 20px rgba(0,0,0,0.4)";
-    } else {
-        header.style.background = "transparent";
-        header.style.boxShadow = "none";
-    }
-
+// MENU MOBILE
+menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
 });
 
 
+// ANIMAÇÕES
 const observer = new IntersectionObserver((entries) => {
 
     entries.forEach((entry) => {
@@ -31,26 +28,38 @@ const hiddenElements = document.querySelectorAll(
 
 hiddenElements.forEach((el) => observer.observe(el));
 
-const menuToggle = document.querySelector(".menu-toggle");
-const navLinks = document.querySelector(".nav-links");
 
-menuToggle.addEventListener("click", () => {
-    navLinks.classList.toggle("active");
-});
-
+// HEADER SOME QUANDO DESCE
 let lastScroll = 0;
-const header = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
 
-    const currentScroll = window.pageYOffset;
+    const currentScroll =
+    window.pageYOffset;
 
-    if(currentScroll > lastScroll){
-        // descendo
-        header.style.transform = "translateY(-100%)";
+    // deixa header preto elegante
+    if (currentScroll > 50) {
+        header.style.background =
+        "rgba(0,0,0,0.95)";
+        header.style.boxShadow =
+        "0 5px 20px rgba(0,0,0,0.3)";
     } else {
-        // subindo
-        header.style.transform = "translateY(0)";
+        header.style.background =
+        "rgba(0,0,0,0.85)";
+        header.style.boxShadow = "none";
+    }
+
+    // esconde descendo
+    if(currentScroll > lastScroll
+        && currentScroll > 100){
+
+        header.style.transform =
+        "translateY(-100%)";
+
+    } else {
+
+        header.style.transform =
+        "translateY(0)";
     }
 
     lastScroll = currentScroll;
