@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Optimization -->
+    <title>PowerFit Gym | Transforme Seu Corpo, Supere Seus Limites</title>
+    <meta name="description" content="A PowerFit Gym é uma academia premium focada em resultados reais. Equipamentos modernos, personal trainers dedicados, planos personalizados e um ambiente exclusivo de alto padrão.">
+    <meta name="keywords" content="academia, fitness, musculação, hipertrofia, emagrecimento, cardio, treino funcional, personal trainer, powerfit gym, premium gym">
+    <meta name="author" content="PowerFit Gym">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph for Social Media -->
+    <meta property="og:title" content="PowerFit Gym | Academia Premium de Alto Padrão">
+    <meta property="og:description" content="Alcance a sua melhor versão. Descubra nossos planos Básico, Premium e Elite com suporte integral de especialistas.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1200">
+    <meta property="og:type" content="website">
+
+    <!-- Premium Stylesheet Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==========================================
+         1. HEADER & NAVBAR (Fixo & Translúcido)
+         ========================================== -->
+    <header class="header" id="header">
+        <div class="container nav-container">
+            <!-- Brand Logo -->
+            <a href="#home" class="logo" id="logoLink" aria-label="PowerFit Gym Home">
+                <span class="logo-icon">
+                    <!-- Custom Gym Dumbbell SVG Icon -->
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="m6.5 6.5 11 11"/>
+                        <path d="m21 21-1-1"/>
+                        <path d="m3 3 1 1"/>
+                        <path d="m18 22 4-4"/>
+                        <path d="m2 6 4-4"/>
+                        <path d="m3 10 7-7"/>
+                        <path d="m14 21 7-7"/>
+                        <path d="M6.5 12.5 12.5 6.5"/>
+                        <path d="m11.5 17.5 6-6"/>
+                    </svg>
+                </span>
+                Power<span class="text-accent">Fit</span>
+            </a>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#beneficios" class="nav-link">Benefícios</a>
+                <a href="#planos" class="nav-link">Planos</a>
+                <a href="#treinos" class="nav-link">Treinos</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+
+            <!-- CTA Right Button -->
+            <div class="nav-cta">
+                <a href="#contato" class="btn btn-primary" id="headerCtaBtn">Começar Agora</a>
+            </div>
+
+            <!-- Hamburger Button for Mobile -->
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         2. HERO SECTION (Parallax & Grade)
+         ========================================== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <!-- Glowing Subtitle Tagline -->
+                <div class="hero-tagline">
+                    <span></span> A sua evolução começa aqui
+                </div>
+                <!-- Main Header Title -->
+                <h1 class="hero-title reveal">
+                    Transforme Seu Corpo, 
+                    <span class="text-accent">Supere Seus Limites</span>
+                </h1>
+                <!-- Subtitle -->
+                <p class="hero-desc reveal delay-1">
+                    Treine em um espaço planejado para o alto desempenho. A PowerFit Gym une tecnologia de ponta, acompanhamento individualizado e um ambiente exclusivo para você atingir seus maiores objetivos.
+                </p>
+                <!-- Hero Action CTAs -->
+                <div class="hero-buttons reveal delay-2">
+                    <a href="#contato" class="btn btn-primary" id="heroCtaPrimary">Começar Agora</a>
+                    <a href="#planos" class="btn btn-secondary" id="heroCtaSecondary">Ver Planos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         3. SEÇÃO BENEFÍCIOS (Cards com Glow)
+         ========================================== -->
+    <section class="section" id="beneficios">
+        <div class="container">
+            <!-- Header section title -->
+            <div class="section-header reveal">
+                <span class="section-subtitle">Por que nos escolher</span>
+                <h2 class="section-title">A melhor estrutura para o seu treino</h2>
+                <p class="section-desc">Oferecemos tudo o que você precisa para obter resultados consistentes, saudáveis e duradouros de forma profissional.</p>
+            </div>
+
+            <!-- Benefits Cards Grid -->
+            <div class="benefits-grid">
+                <!-- Card 1 -->
+                <div class="benefit-card glass-card reveal">
+                    <div class="benefit-icon-wrapper">
+                        <!-- Modern Dumbbell SVG -->
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6.5 6.5h11"/>
+                            <path d="M21 21v-3"/>
+                            <path d="M3 3v3"/>
+                            <path d="M6.5 12h11"/>
+                            <path d="M12 4v16"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Equipamentos Modernos</h3>
+                    <p>Maquinário importado com biomecânica avançada que maximiza a ativação muscular e garante total segurança em cada série executada.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="benefit-card glass-card reveal delay-1">
+                    <div class="benefit-icon-wrapper">
+                        <!-- Personal Trainer / Users SVG -->
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Personal Trainers</h3>
+                    <p>Profissionais de ponta altamente qualificados, prontos para corrigir sua postura, motivar você e criar dinâmicas eficientes.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="benefit-card glass-card reveal delay-2">
+                    <div class="benefit-icon-wrapper">
+                        <!-- Customized Training Plan / Clipboard SVG -->
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="8" y="2" width="8" height="4" rx="1" ry="1"/>
+                            <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/>
+                            <path d="m9 14 2 2 4-4"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Treinos Personalizados</h3>
+                    <p>Fichas de exercícios customizadas de acordo com o seu biotipo, metas (ganho, perda, estabilização) e histórico de lesões.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="benefit-card glass-card reveal delay-3">
+                    <div class="benefit-icon-wrapper">
+                        <!-- Premium Environment / Shield SVG -->
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="m15 9-6 6"/>
+                            <path d="m9 9 6 6"/>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Ambiente Premium</h3>
+                    <p>Espaço sofisticado com som ambiente integrado, climatização constante, vestiários de luxo e total higiene para o seu conforto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         4. SEÇÃO PLANOS (Comparativo de Planos)
+         ========================================== -->
+    <section class="section plans" id="planos">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">Nossos Planos</span>
+                <h2 class="section-title">Escolha o plano ideal para você</h2>
+                <p class="section-desc">Valores transparentes e flexíveis para se adequar ao seu estilo de vida. Sem taxas surpresas.</p>
+            </div>
+
+            <div class="plans-grid">
+                <!-- Plano 1: Básico -->
+                <div class="plan-card glass-card reveal" id="planBasic">
+                    <div class="plan-header">
+                        <h3 class="plan-name">Básico</h3>
+                        <div class="plan-price-wrapper">
+                            <span class="plan-currency">R$</span>
+                            <span class="plan-price">99</span>
+                            <span class="plan-period">/mês</span>
+                        </div>
+                    </div>
+                    <div class="plan-divider"></div>
+                    <ul class="plan-features">
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                            Acesso à área de musculação
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                            Armários rotativos inclusos
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                            App PowerFit com ficha básica
+                        </li>
+                        <li class="disabled">
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
+                            Acesso às aulas coletivas (Cardio/Funcional)
+                        </li>
+                        <li class="disabled">
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
+                            Avaliação física mensal dedicada
+                        </li>
+                        <li class="disabled">
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
+                            Acompanhamento Nutricional trimestral
+                        </li>
+                    </ul>
+                    <a href="#contato" class="btn btn-secondary" id="btnEnrollBasic">Matricular-se</a>
+                </div>
+
+                <!-- Plano 2: Premium (DESTACADO) -->
+                <div class="plan-card glass-card plan-featured reveal delay-1" id="planPremium">
+                    <!-- Featured Corner Badge -->
+                    <div class="plan-badge">Popular</div>
+                    <div class="plan-header">
+                        <h3 class="plan-name">Premium</h3>
+                        <div class="plan-price-wrapper">
+                            <span class="plan-currency">R$</span>
+                            <span class="plan-price">149</span>
+                            <span class="plan-period">/mês</span>
+                        </div>
+                    </div>
+                    <div class="plan-divider"></div>
+                    <ul class="plan-features">
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                            <strong>Livre acesso</strong> a todas as áreas
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                            Aulas coletivas inclusas (Cardio/Zumba)
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                            App Premium com acompanhamento gráfico
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                            1 Avaliação bioimpedância por mês
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                            Acesso para 1 convidado 3x no mês
+                        </li>
+                        <li class="disabled">
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
+                            Nutricionista esportivo dedicado
+                        </li>
+                    </ul>
+                    <a href="#contato" class="btn btn-primary" id="btnEnrollPremium">Matricular-se</a>
+                </div>
+
+                <!-- Plano 3: Elite -->
+                <div class="plan-card glass-card reveal delay-2" id="planElite">
+                    <div class="plan-header">
+                        <h3 class="plan-name">Elite</h3>
+                        <div class="plan-price-wrapper">
+                            <span class="plan-currency">R$</span>
+                            <span class="plan-price">299</span>
+                            <span class="plan-period">/mês</span>
+                        </div>
+                    </div>
+                    <div class="plan-divider"></div>
+                    <ul class="plan-features">
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                            Livre acesso total à rede de academias
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                            Todas as aulas coletivas + Área Crossfit
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                            Treino personalizado e revisado a cada 15 dias
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                            Avaliação física completa quinzenal
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                            <strong>Acompanhamento nutricional quinzenal</strong>
+                        </li>
+                        <li>
+                            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path></svg>
+                            Acesso para 1 convidado sempre com você
+                        </li>
+                    </ul>
+                    <a href="#contato" class="btn btn-secondary" id="btnEnrollElite">Matricular-se</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         5. SEÇÃO DE TREINOS (Categorias Modernas)
+         ========================================== -->
+    <section class="section" id="treinos">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">Modalidades</span>
+                <h2 class="section-title">Encontre seu treino perfeito</h2>
+                <p class="section-desc">Independentemente do seu nível de preparo ou objetivo, possuímos metodologias adaptadas para você evoluir mais rápido.</p>
+            </div>
+
+            <div class="workouts-grid">
+                <!-- Categoria 1: Hipertrofia -->
+                <div class="workout-card reveal" id="workoutHipertrofia">
+                    <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=800" alt="Treino focado em Hipertrofia na PowerFit Gym" class="workout-img" loading="lazy">
+                    <div class="workout-overlay">
+                        <span class="workout-tag">Musculação</span>
+                        <h3 class="workout-title">Hipertrofia</h3>
+                        <p class="workout-desc">Foco na construção e definição de massa muscular magra com treinos de força periodizados e supervisão biomecânica dos profissionais.</p>
+                    </div>
+                </div>
+
+                <!-- Categoria 2: Emagrecimento -->
+                <div class="workout-card reveal delay-1" id="workoutEmagrecimento">
+                    <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=800" alt="Treino focado em Emagrecimento na PowerFit Gym" class="workout-img" loading="lazy">
+                    <div class="workout-overlay">
+                        <span class="workout-tag">Queima Calórica</span>
+                        <h3 class="workout-title">Emagrecimento</h3>
+                        <p class="workout-desc">Circuitos de alta intensidade e programas aeróbicos customizados para queimar calorias durante e mesmo horas após o treino.</p>
+                    </div>
+                </div>
+
+                <!-- Categoria 3: Funcional -->
+                <div class="workout-card reveal delay-2" id="workoutFuncional">
+                    <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?q=80&w=800" alt="Treino Funcional dinâmico na PowerFit Gym" class="workout-img" loading="lazy">
+                    <div class="workout-overlay">
+                        <span class="workout-tag">Mobilidade & Core</span>
+                        <h3 class="workout-title">Funcional</h3>
+                        <p class="workout-desc">Exercícios dinâmicos e focados na mobilidade corporal geral, melhorando sua postura, flexibilidade, equilíbrio e estabilização de core.</p>
+                    </div>
+                </div>
+
+                <!-- Categoria 4: Cardio -->
+                <div class="workout-card reveal delay-3" id="workoutCardio">
+                    <img src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?q=80&w=800" alt="Treino Cardio de alto rendimento na PowerFit Gym" class="workout-img" loading="lazy">
+                    <div class="workout-overlay">
+                        <span class="workout-tag">Resistência</span>
+                        <h3 class="workout-title">Cardio</h3>
+                        <p class="workout-desc">Atividades dedicadas à melhoria da saúde cardiovascular. Aumente o fôlego geral e sua energia no cotidiano com maquinário inteligente.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         6. SEÇÃO SOBRE A ACADEMIA (Estatísticas Animadas)
+         ========================================== -->
+    <section class="section about" id="sobre">
+        <div class="container">
+            <div class="about-wrapper">
+                <!-- Coluna Esquerda: Imagem Conceitual -->
+                <div class="about-img-box reveal" id="aboutImgBox">
+                    <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1200" alt="Interior e atmosfera da PowerFit Gym" class="about-image" loading="lazy">
+                </div>
+
+                <!-- Coluna Direita: Informações e Status -->
+                <div class="about-content reveal delay-1">
+                    <span class="section-subtitle">Nossa História</span>
+                    <h2 class="section-title">Ambiente pensado para inspirar</h2>
+                    <p class="about-text">
+                        Fundada com a proposta de redefinir o conceito de academia de alto padrão, a PowerFit Gym oferece um refúgio para quem busca evolução física e mental profunda. Nossa missão é disponibilizar uma infraestrutura impecável aliada a profissionais focados no resultado real do cliente.<br><br>
+                        Aqui, o seu progresso é metrificado por avaliações completas e acompanhado diariamente de perto. Descubra a diferença de treinar com propósito e conforto, superando as suas próprias marcas a cada visita.
+                    </p>
+
+                    <!-- Stats Counters Row -->
+                    <div class="stats-grid">
+                        <div class="stat-item" id="statStudents">
+                            <!-- JS will grab data-target and animate count -->
+                            <div class="stat-number" data-target="1000" data-prefix="+">0</div>
+                            <div class="stat-label">Alunos Ativos</div>
+                        </div>
+                        <div class="stat-item" id="statEquipments">
+                            <div class="stat-number" data-target="50" data-prefix="+">0</div>
+                            <div class="stat-label">Equipamentos</div>
+                        </div>
+                        <div class="stat-item" id="statYears">
+                            <div class="stat-number" data-target="5" data-prefix="">0</div>
+                            <div class="stat-label">Anos de Experiência</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         7. DEPOIMENTOS DE CLIENTES
+         ========================================== -->
+    <section class="section" id="depoimentos">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">Depoimentos</span>
+                <h2 class="section-title">Quem treina, aprova</h2>
+                <p class="section-desc">Descubra a experiência de quem já alcançou grandes transformações corporais e de saúde na PowerFit Gym.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <!-- Depoimento 1 -->
+                <div class="testimonial-card glass-card reveal">
+                    <div class="quote-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                        </svg>
+                    </div>
+                    <div class="testimonial-stars">
+                        <!-- 5 Stars SVGs -->
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "Estou treinando na PowerFit Gym há 6 meses e os resultados superaram as expectativas. Os professores montam fichas sob medida que se adaptam à minha rotina e os equipamentos são maravilhosos."
+                    </p>
+                    <div class="client-info">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=150" alt="Aluna Mariana Souza" class="client-avatar" loading="lazy">
+                        <div class="client-meta">
+                            <h4>Mariana Souza</h4>
+                            <span>Membro Premium</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Depoimento 2 -->
+                <div class="testimonial-card glass-card reveal delay-1">
+                    <div class="quote-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                        </svg>
+                    </div>
+                    <div class="testimonial-stars">
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "Fazia anos que eu não conseguia ter constância na musculação. Na PowerFit encontrei um ambiente limpo, climatizado e dinâmicas de treino estimulantes. Excelente infraestrutura!"
+                    </p>
+                    <div class="client-info">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150" alt="Aluno Thiago Silva" class="client-avatar" loading="lazy">
+                        <div class="client-meta">
+                            <h4>Thiago Silva</h4>
+                            <span>Membro Elite</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Depoimento 3 -->
+                <div class="testimonial-card glass-card reveal delay-2">
+                    <div class="quote-icon">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/>
+                        </svg>
+                    </div>
+                    <div class="testimonial-stars">
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        <svg width="18" height="18" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "Estava desmotivada e o treino funcional personalizado mudou minha disposição. Além disso, as consultas com a nutricionista inclusas no plano Elite me ajudaram a bater minha meta mais rápido!"
+                    </p>
+                    <div class="client-info">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150" alt="Aluna Amanda Costa" class="client-avatar" loading="lazy">
+                        <div class="client-meta">
+                            <h4>Amanda Costa</h4>
+                            <span>Membro Elite</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         8. SEÇÃO CONTATO (Formulário & Redes)
+         ========================================== -->
+    <section class="section contact" id="contato">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">Fale Conosco</span>
+                <h2 class="section-title">Dê o primeiro passo hoje mesmo</h2>
+                <p class="section-desc">Inscreva-se ou envie suas dúvidas. Nossa equipe entrará em contato em menos de 24 horas.</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <!-- Formulário com inputs premium -->
+                <div class="contact-form-box glass-card reveal">
+                    <form id="contactForm" novalidate>
+                        <!-- Nome -->
+                        <div class="form-group">
+                            <input type="text" id="name" class="form-input" required autocomplete="name">
+                            <label for="name" class="form-label">Nome Completo</label>
+                        </div>
+
+                        <!-- Email -->
+                        <div class="form-group">
+                            <input type="email" id="email" class="form-input" required autocomplete="email">
+                            <label for="email" class="form-label">Seu Melhor E-mail</label>
+                        </div>
+
+                        <!-- Celular / Whatsapp -->
+                        <div class="form-group">
+                            <input type="tel" id="phone" class="form-input" required autocomplete="tel">
+                            <label for="phone" class="form-label">Whatsapp / Telefone</label>
+                        </div>
+
+                        <!-- Mensagem -->
+                        <div class="form-group">
+                            <textarea id="message" class="form-input" required></textarea>
+                            <label for="message" class="form-label">Mensagem ou Dúvida</label>
+                        </div>
+
+                        <!-- Botão com efeito ripple/glow -->
+                        <button type="submit" class="btn btn-primary" id="btnSubmitContact">Enviar Mensagem</button>
+                    </form>
+                </div>
+
+                <!-- Info Box (WhatsApp, Endereço, Social) -->
+                <div class="contact-info-box reveal delay-1">
+                    <h3 class="info-lead">
+                        Pronto para mudar de vida? <br>
+                        <span class="text-accent">A hora é agora!</span>
+                    </h3>
+
+                    <!-- Contact Details List -->
+                    <div class="info-list">
+                        <!-- Whatsapp -->
+                        <div class="info-item" id="infoWhatsapp">
+                            <div class="info-icon-wrapper">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+                                </svg>
+                            </div>
+                            <div class="info-details">
+                                <h4>Fale pelo WhatsApp</h4>
+                                <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">(11) 99999-9999</a>
+                            </div>
+                        </div>
+
+                        <!-- Address -->
+                        <div class="info-item" id="infoAddress">
+                            <div class="info-icon-wrapper">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div class="info-details">
+                                <h4>Nossa Localização</h4>
+                                <p>Av. Paulista, 1500 - Bela Vista, São Paulo - SP, 01311-200</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Redes Sociais Integradas -->
+                    <div class="social-wrapper">
+                        <h4 style="font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; color: var(--clr-text-muted); margin-bottom: 1.5rem;">Siga-nos nas Redes</h4>
+                        <div class="social-links">
+                            <!-- Instagram -->
+                            <a href="https://instagram.com" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Acesse nosso Instagram">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                                </svg>
+                            </a>
+                            <!-- Facebook -->
+                            <a href="https://facebook.com" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Acesse nosso Facebook">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                                </svg>
+                            </a>
+                            <!-- YouTube -->
+                            <a href="https://youtube.com" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="Acesse nosso canal no YouTube">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 0 0-1.95 1.96A29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/>
+                                    <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         9. FOOTER & DIREITOS RESERVADOS
+         ========================================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand Info Col -->
+                <div class="footer-brand">
+                    <a href="#home" class="logo" style="margin-bottom: 1.5rem;" aria-label="PowerFit Gym Home">
+                        <span class="logo-icon">
+                            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="m6.5 6.5 11 11"/>
+                                <path d="m21 21-1-1"/>
+                                <path d="m3 3 1 1"/>
+                                <path d="m18 22 4-4"/>
+                                <path d="m2 6 4-4"/>
+                                <path d="m3 10 7-7"/>
+                                <path d="m14 21 7-7"/>
+                                <path d="M6.5 12.5 12.5 6.5"/>
+                                <path d="m11.5 17.5 6-6"/>
+                            </svg>
+                        </span>
+                        Power<span class="text-accent">Fit</span>
+                    </a>
+                    <p>
+                        Redefinindo o significado de alta performance e bem-estar. Venha superar seus limites físicos na melhor estrutura de São Paulo.
+                    </p>
+                </div>
+
+                <!-- Quick Links Col 1 -->
+                <div class="footer-nav">
+                    <h4>Navegação</h4>
+                    <div class="footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#beneficios">Benefícios</a>
+                        <a href="#planos">Planos</a>
+                        <a href="#treinos">Treinos</a>
+                    </div>
+                </div>
+
+                <!-- Quick Links Col 2 -->
+                <div class="footer-nav">
+                    <h4>Institucional</h4>
+                    <div class="footer-links">
+                        <a href="#sobre">Sobre Nós</a>
+                        <a href="#depoimentos">Depoimentos</a>
+                        <a href="#contato">Fale Conosco</a>
+                        <a href="#contato">Trabalhe Conosco</a>
+                    </div>
+                </div>
+
+                <!-- Quick Links Col 3 -->
+                <div class="footer-nav">
+                    <h4>Contato</h4>
+                    <div class="footer-links" style="color: var(--clr-text-secondary); font-size: 0.95rem;">
+                        <p>contato@powerfit.com.br</p>
+                        <p>Av. Paulista, 1500</p>
+                        <p>Tel: (11) 3222-2222</p>
+                        <p>Seg a Sex: 05h às 23h</p>
+                        <p>Sáb e Dom: 08h às 16h</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom Copy -->
+            <div class="footer-bottom">
+                <div class="copyright">
+                    &copy; 2026 PowerFit Gym. Todos os direitos reservados.
+                </div>
+                <div class="copyright" style="font-size: 0.85rem;">
+                    Desenvolvido com foco em alta conversão.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==========================================
+         EXTRAS: BOTÃO VOLTAR AO TOPO
+         ========================================== -->
+    <button class="back-to-top" id="backToTop" aria-label="Voltar para o topo da página">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"/>
+            <polyline points="5 12 12 5 19 12"/>
+        </svg>
+    </button>
+
+    <!-- Pure JS Script Integration -->
+    <script src="script.js"></script>
+</body>
+</html>
