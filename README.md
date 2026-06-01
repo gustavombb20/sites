@@ -1,4 +1,4 @@
-# 🌐 Portfólio de Sites - Gustavo Muller
+# 🌐 Portfólio de Sites 
 
 Repositório contendo meus projetos de desenvolvimento web, criados com foco em design moderno, responsividade e experiência do usuário.
 
